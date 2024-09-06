@@ -1,0 +1,25 @@
+Icones do VS.Code:
+    - Material Icon Theme - Icones de pastas e arquivos
+    - One Dark Pro - Tema de Fundo
+
+Instalações:
+    - Windows Terminal
+    - github.com/appium/appium-inspector
+       * npx appium (colocar o servidor do appium no ar)
+
+Instalações do Appium dentro do projeto:
+    - cd\QAx\projects\appium-qax
+    - npx appium (fazer a instalação do appium dentro deste projeto)
+    - appium@2.0.1 ->mudar a versão do Appium
+    - npm i appium-doctor ( na mesma pasta "appium-qax")
+    - npx appium-doctor --android ( na mesma pasta "appium-qax")
+
+Criação de pastas:
+    No cmd do win
+        cd para localizar a pasta do projeto
+        mkdir QAx primeira pasta do projeto
+        mkdir apps + projects
+
+Comandos:
+    npx playwright test --ui
+    npx playwright test --headed
