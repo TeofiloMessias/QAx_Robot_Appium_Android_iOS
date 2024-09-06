@@ -6,6 +6,10 @@ Instalações:
     - Windows Terminal
     - github.com/appium/appium-inspector
        * npx appium (colocar o servidor do appium no ar)
+    - npx appium driver install uiautomator2
+    - versão mais atualizada do Python 3.11.4
+    - pip install robotframework
+    - python -m robot --version (Em caso de ERRO na intalação do robotframework)
 
 Instalações do Appium dentro do projeto:
     - cd\QAx\projects\appium-qax
@@ -23,3 +27,4 @@ Criação de pastas:
 Comandos:
     npx playwright test --ui
     npx playwright test --headed
+    npx appium driver list --installed (lista de devices instalados)
