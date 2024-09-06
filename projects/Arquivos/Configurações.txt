@@ -8,23 +8,32 @@ Instalações:
        * npx appium (colocar o servidor do appium no ar)
     - npx appium driver install uiautomator2
     - versão mais atualizada do Python 3.11.4
+  
+  Instalação do RobotFramework:
     - pip install robotframework
     - python -m robot --version (Em caso de ERRO na intalação do robotframework)
 
-Instalações do Appium dentro do projeto:
+Instalações do Appium dentro do projeto e do doctor:
     - cd\QAx\projects\appium-qax
     - npx appium (fazer a instalação do appium dentro deste projeto)
-    - appium@2.0.1 ->mudar a versão do Appium
+    
     - npm i appium-doctor ( na mesma pasta "appium-qax")
     - npx appium-doctor --android ( na mesma pasta "appium-qax")
+    - npx appium driver install uiautomator2 (dentro do projeto yodapp)
+
+Verções:
+    - appium@2.0.1 ->mudar a versão do Appium
+    - versão mais atualizada do Python 3.11.4
 
 Criação de pastas:
     No cmd do win
-        cd para localizar a pasta do projeto
-        mkdir QAx primeira pasta do projeto
-        mkdir apps + projects
+        cd \ Nome_Pasta (para localizar a pasta do projeto)
+        mkdir QAx (primeira pasta do projeto)
+        mkdir apps (primeira pasta)
+        projects (segunda pasta)
 
 Comandos:
     npx playwright test --ui
     npx playwright test --headed
     npx appium driver list --installed (lista de devices instalados)
+    npx appium (para subir o servidor do Appium)
