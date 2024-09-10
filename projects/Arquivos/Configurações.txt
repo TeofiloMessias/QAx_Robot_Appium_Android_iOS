@@ -37,3 +37,9 @@ Comandos:
     npx playwright test --headed
     npx appium driver list --installed (lista de devices instalados)
     npx appium (para subir o servidor do Appium)
+
+- Abrindo o Emulador via linha de Comando fora da pasta do projeto
+    cd %ANDROID_HOME%
+    cd tools
+    emulator @Nome_Device
+    emulator -list-avds (lista todos os dispositivos na maquina)
