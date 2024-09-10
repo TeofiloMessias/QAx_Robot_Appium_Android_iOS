@@ -1,0 +1,6 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "QAx-apha",
+  "appium:automationName": "UIAutomator2",
+  "appium:app": "C:\\QAx\\QAx_Robot_Appium_Android_iOS\\projects\\appium-qax\\qax-alpha.apk"
+}
