@@ -2,6 +2,9 @@ Icones do VS.Code:
     - Material Icon Theme - Icones de pastas e arquivos
     - One Dark Pro - Tema de Fundo
 
+Plugins:
+Intalação do plugin RobotframeWork no VSCode
+
 Instalações:
     - Windows Terminal
     - github.com/appium/appium-inspector
@@ -43,3 +46,15 @@ Comandos:
     cd tools
     emulator @Nome_Device
     emulator -list-avds (lista todos os dispositivos na maquina)
+
+
+IMPORTANTE:
+    Caso o Appium não execute na pasta aonde o APK foi criada
+exemplo: Pasta "yodapp" agora renomeada para yodapp-robot
+use o seguinte comando:
+    npx appium driver uninstall uiautomator2
+depois intalaçãp normal do appium
+    npx appium driver install uiautomator2
+
+Depois fazer a instalção da biblioteca do appium:
+pip install --upgrade robotframework-appiumlibrary
